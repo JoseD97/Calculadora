@@ -42,7 +42,6 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         tv_delete.setOnClickListener(this)
         tv_point.setOnClickListener(this)
         //Para que no los tenga en cuenta en el modo vertical
-        // Prueba
         if(resources.configuration.orientation == Configuration.ORIENTATION_LANDSCAPE){
             tv_smile.setOnClickListener(this)
             tv_mod.setOnClickListener(this)
